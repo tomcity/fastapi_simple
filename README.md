@@ -49,3 +49,18 @@ services:
       interval: 5s
       timeout: 20s
       retries: 10
+
+# GIT
+# create a new repository on the command line
+echo "# apollo" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/tomcity/fastapi.git
+git push -u origin main
+
+# push an existing repository from the command line
+git remote add origin https://github.com/tomcity/fastapi.git
+git branch -M main
+git push -u origin main

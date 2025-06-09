@@ -14,3 +14,6 @@ wheels/
 .venv
 # Environment variables
 .env
+
+README.md
+uv.lock
