@@ -1,0 +1,20 @@
+# macOS metadata
+**/.DS_Store
+
+# Python caches
+__pycache__/
+**/__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+.venv/
+.conda/
+
+# Git and dotenv
+.git/
+.env
+
+# Docker/build files you don’t want copied into image
+Dockerfile
+README.md
